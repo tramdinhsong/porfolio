@@ -1,0 +1,559 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;200;300;400;500;600;700&family=Jura:wght@300;400;500;600;700&family=Carattere&family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Saira+Stencil+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body
+{
+	font-family: 'Roboto', cursive;
+	background:rgba(0,0,0,1.00);
+	
+}
+
+.container-fluid
+{
+	width: 100%;
+	padding: 0 30px;
+	
+}
+
+.container
+{
+	max-width:1200px;
+	margin: 0 auto;
+}
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+h1
+{
+	font-family: 'Saira Stencil One', cursive;
+	color: #E91E63;
+	letter-spacing: 0.2rem;
+	font-weight: normal;
+}
+p 
+{
+
+	line-height: 150%;
+	font-family: 'Roboto', cursive;
+	color: aliceblue;
+	letter-spacing: 0.1rem;
+	
+}
+h2
+{
+	color:aliceblue;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	line-height: 150%;
+	font-weight:bolder;
+}
+h3
+{
+	line-height: 150%;
+	font-family: 'Roboto', cursive;
+	color:#E91E63;
+	letter-spacing: 0.1rem;
+}
+.subtitle
+{
+	font-size: 1.333rem !important;
+}
+.caption
+{
+	font-size: 0.75rem !important;
+}
+.bg-primary{
+	background: #e91e63;
+}
+.bg-secondary{
+	background: #017180;
+}
+.bg-success{
+	background: #57dcbe;
+}
+.bg-warning{
+	background:#9c2780;
+}
+.bg-error{
+	background: #c21858;
+}
+.text-primary{
+	color: #e91e63;
+}
+.text-center
+{
+	text-align: center;
+}
+
+.text-right
+{
+	text-align: right;
+}
+.text-left
+{
+	text-align: left;
+}
+.menu-btn
+{
+	padding: 8px 24px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.btn
+{
+	padding: 8px 24px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.btn-primary
+{
+	background:#e91e63;
+	font-size: 14px;
+	color:aliceblue;
+	
+}
+.btn-secondary
+{
+	background: #ff2e6a;
+	font-size: 14px;
+	color: white;
+	
+}
+.btn-white
+{
+	background: white;
+	font-size: 14px;
+	color: #1e266d;
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5)
+}
+.btn-outline
+{
+	color: aliceblue;
+	background: #E91E63;
+	border-radius: 50px;
+	font-size: 1.2rem;
+	padding: 0.5rem 3rem 0.5rem 3rem;
+	
+}
+.label
+{
+	padding: 12px 24px;
+	font-weight: bold;
+}
+.bg-label-1
+{
+	background-color: #4760ff;
+}
+.bg-label-2
+{
+	background: #f9f3fe;
+	color: #fd5285;
+}
+.col-1
+{
+	width: 8.33%;
+}
+
+.col-2
+{
+	width: 16.66%;
+}
+
+.col-3
+{
+	width: 25%;
+}
+
+.col-4
+{
+	width: 33.33%;
+}
+
+.col-5
+{
+	width: 41.66%;
+}
+
+.col-6
+{
+	width: 50%;
+}
+
+.col-7
+{
+	width: 58.33%;
+}
+
+.col-8
+{
+	width: 66.66%;
+}
+
+.col-9
+{
+	width: 75%;
+}
+
+.col-10
+{
+	width: 83.33%;
+}
+
+.col-11
+{
+	width: 91.66%;
+}
+
+.col-12
+{
+	width: 100%;
+}
+.vh-100
+{
+	height: 100vh;
+}
+.justify-beetween
+{
+	justify-content: space-between;
+}
+.justify-center
+{
+	justify-content: center;
+}
+.justify-right
+{
+	justify-content: space-around;
+}
+.align-s-center
+{
+	align-self: center;
+}
+.align-s-bot
+{
+	align-self: flex-end;
+}
+.align-s-top
+{
+	align-self: flex-start;
+}
+.align-center
+{
+	align-items: center;
+}
+.align-bot
+{
+	align-items: flex-end;
+}
+.align-top
+{
+	align-items: flex-start;
+}
+.p-1{
+	padding: 4px;
+}
+.pt-1{
+	padding-top:4px;
+}
+.pt-20
+{
+	padding-top: 80px;
+}
+.pt-50
+{
+	padding-top: 200px;
+}
+.pb-1{
+	padding-bottom: 4px;
+}
+.pb-4{
+	padding-bottom: 16px;
+}
+.pb-20{
+	padding-bottom: 80px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pl-5
+{
+	padding-left: 20px;
+}
+.pr-1{
+	padding-right: 4px;
+}
+.pr-8{
+	padding-right: 24px;
+}
+.px-1{
+	padding: 0 4px;
+}
+.py-1{
+	padding: 4px 0;
+}
+.p-2{
+	padding: 8px;
+}
+.p-8
+{
+	padding: 32px;
+}
+.px-4{
+	padding: 0 16px;
+}
+.px-10{
+	padding: 0 40px;
+}
+.py-4{
+	padding: 16px 0;
+}
+.py-10
+{
+	padding: 40px 0;
+}
+/*margin*/
+.m-1{
+	margin: 4px;
+}
+.mt-1{
+	margin-top:4px;
+}
+.mt-6
+{
+	margin-top: 24px;
+}
+.mt-8
+{
+	margin-top: 32px;
+}
+.mt-10
+{
+	margin-top: 40px;
+}
+.mt-15
+{
+	margin-top: 60px;
+}
+.mt-20
+{
+	margin-top: 80px;
+}
+.mt-40
+{
+	margin-top: 140px;
+}
+.mt-50
+{
+	margin-top: 200px;
+}
+.mt-60
+{
+	margin-top: 240px;
+}
+.mt-70
+{
+	margin-top: 280px;
+}
+.mt-80
+{
+	margin-top: 320px;
+}
+.mt-100
+{
+	margin-top: 400px;
+}
+.mt-150
+{
+	margin-top: 600px;
+}
+.mb-1{
+	margin-bottom: 4px;
+}
+.mb-2{
+		margin-bottom: 8px;
+}
+
+.mb-8
+{
+	margin-bottom: 32px;
+}
+.mb-15
+{
+	margin-bottom: 60px;
+}
+.mb-18
+{
+	margin-bottom: 72px;
+}
+.mb-22
+{
+	margin-bottom: 88px;
+}
+.ml-1{
+	margin-left: 4px;
+}
+.ml-10
+{
+	margin-left: 40px;
+}
+.ml-5
+{
+	margin-left: 20px;
+}
+.ml-6
+{
+	margin-left: 24px;
+}
+.ml-3
+{
+	margin-left: 12px;
+}
+.mr-1{
+	margin-right: 4px;
+}
+.mr-6
+{
+	margin-right: 24px;
+}
+.mx-1{
+	margin: 0 4px;
+}
+.my-1{
+	margin: 4px 0;
+}
+.mx-auto{
+	margin: 0 auto;
+}
+.mt-2
+{
+	margin-top: 12px;
+}
+.mt-3
+{
+	margin-top: 16px;
+}
+.nav-mobile
+{
+	display: none;
+}
+.display-sm-block
+{
+	display: block;
+}
+.display-none
+{
+	display: none;
+}
+/*Mobile*/
+@media screen and (max-width:415px)
+{
+	.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-9,.col-10,.col-11,.col-12
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width:415px)
+{
+	.container
+	{
+		padding: 0 30px 0 30px;
+	}
+	.display-sm-none
+	{
+		display: none;
+	}
+	.display-sm-block
+	{
+		display: block;
+	}
+	.text-sm-center
+	{
+		text-align: center !important;
+	}
+	.text-sm-right
+	{
+		text-align: right !important;
+	}
+	
+	.col-sm-1
+	{
+		width: 8.33% !important;
+	}
+
+	.col-sm-2
+	{
+		width: 16.66%!important;
+	}
+
+	.col-sm-3
+	{
+		width: 25%!important;
+	}
+
+	.col-sm-4
+	{
+		width: 33.33%!important;
+	}
+
+	.col-sm-5
+	{
+		width: 41.66%!important;
+	}
+
+	.col-sm-6
+	{
+		width: 50%!important;
+	}
+
+	.col-sm-7
+	{
+		width: 58.33%!important;
+	}
+
+	.col-sm-8
+	{
+		width: 66.66%!important;
+	}
+
+	.col-sm-9
+	{
+		width: 75%!important;
+	}
+
+	.col-sm-10
+	{
+		width: 83.33%!important;
+	}
+
+	.col-sm-11
+	{
+		width: 91.66%!important;
+	}
+
+	.col-sm-12
+	{
+		width: 100%!important;
+	}
+	.btn-outline
+{
+	color: aliceblue;
+	background: #E91E63;
+	border-radius: 50px;
+	font-size: 0.5rem;
+	padding: 0.3rem 1rem 0.3rem 1rem;
+	
+	
+}
+	
+}
