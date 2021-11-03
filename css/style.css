@@ -689,7 +689,10 @@ footer
 	line-height: 2.5rem;
 	
 }
-	
+	.gallery-card
+{
+	margin: 15px 0px 15px 0;
+}
 	.content-title1
 {
 	height:600px; 
